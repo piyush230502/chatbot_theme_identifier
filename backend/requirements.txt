@@ -1,0 +1,14 @@
+# requirements.txt
+streamlit
+pytesseract
+pdfplumber
+opencv-python
+Pillow
+langchain
+sentence-transformers
+chromadb
+scikit-learn
+groq
+openai
+python-dotenv
+langchain_huggingface
