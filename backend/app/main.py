@@ -1,6 +1,5 @@
 import streamlit as st
 import os
-from dotenv import load_dotenv
 import time
 import uuid
 from pathlib import Path
@@ -13,13 +12,9 @@ from config import settings
 
 from langchain_huggingface import HuggingFaceEmbeddings
 
-# Load environment variables
-load_dotenv()
 
 GROQ_API_KEY = settings.GROQ_API_KEY
 
-
-#GROQ_API_KEY = os.getenv("GROQ_API_KEY")
 
 # Constants
 UPLOAD_DIR = os.path.join("F:/INTERNSHIP_ASSIGNMENT/chatbot_theme_identifier/backend/app/data", "uploads")
