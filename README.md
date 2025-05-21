@@ -53,7 +53,7 @@ chatbot_theme_identifier/
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/yourusername/chatbot-theme-identifier.git
+   git clone https://github.com/piyush230502/chatbot-theme-identifier.git
    cd chatbot-theme-identifier/backend
    ```
 
